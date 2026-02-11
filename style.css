@@ -103,12 +103,14 @@ span {
     font-size: 0.85rem;
     font-weight: 700;
 }
+
 /* box6 */
 
 .nav-cart i {
     font-size: 30px;
 }
-.nav-cart{
+
+.nav-cart {
     font-size: 0.85rem;
     font-weight: 700;
 }
@@ -116,7 +118,7 @@ span {
 
 /* panel */
 
-.panel{
+.panel {
     height: 40px;
     background-color: #222f3d;
     display: flex;
@@ -124,16 +126,46 @@ span {
     align-items: center;
     justify-content: space-evenly;
 }
-.panel-ops p{
+
+.panel-ops p {
     display: inline;
     margin: 15px;
 }
 
-.panel-ops{
+.panel-ops {
     width: 70%;
     font-size: 0.85rem;
 }
-.panel-deals{
+
+.panel-deals {
     font-size: 0.9rem;
     font-weight: 700;
+}
+
+/* hero section */
+.hero-section {
+    background-image: url(images/hero_image.jpg);
+    background-size: cover;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero-message {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+
+.hero-message a {
+    color: #007185;
 }
